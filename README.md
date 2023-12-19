@@ -28,4 +28,3 @@ See the live demo [here](#).
 
 ---
 
-Feel free to customize this template based on your project's specifics. Add more details if needed, and make sure to include any relevant links such as the live demo link.
