@@ -1,0 +1,35 @@
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lato', sans-serif; */
+nav{
+    position: sticky;
+    top:0%;
+    z-index: 5;
+    background-color: antiquewhite;
+}
+#menu{
+    border: 12px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    flex-wrap: wrap;
+}
+.menuItem{
+   width: 40%;
+   height: 100%;
+
+}
+#menuitem-1{
+ 
+}
+#menuitem-2{
+ 
+}
+#menuitem-3{
+ 
+}
+#menuitem-4{
+ 
+}
+
