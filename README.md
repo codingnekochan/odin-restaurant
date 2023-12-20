@@ -18,6 +18,7 @@ See the live demo [here](#).
 - **`index.html`:** Main HTML file.
 - **`src/`:** Contains JavaScript and CSS files.
 - **`dist/`:** Output folder after building with Webpack.
+- **`assets/` Contains images and icons
 
 ## Technologies Used
 
