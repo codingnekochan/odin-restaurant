@@ -33,7 +33,6 @@ function switchTabs(e){
         appendHomeElements();
         break;
       case "menu-btn":
-        mainContent.innerHTML="";
         appendMenuElements();
         break;
       default:

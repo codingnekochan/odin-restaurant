@@ -5,17 +5,23 @@ const contactHeading = document.createElement("h2");
 const contactAddress = document.createElement("p");
 const contactInfo = document.createElement("p");
 const contactHours = document.createElement("p");
+const lineBreak = document.createElement('br');
 // add element ids
 contactSection.id = "contact";
 // add text content
 contactHeading.textContent = "Reach us here";
 contactAddress.textContent =
-  "Nekochan's Cafe 123 Whisker Lane Purrington City, CA 98765 United States";
-contactInfo.textContent = "Phone: (555) 123-4567 Email: info@nekochanscafe.com";
+  `Nekochan's Cafe, 123 Whisker Lane Purrington City, CA 98765 United States`;
+contactInfo.textContent = "Phone: (555) 123-4567. Email: info@nekochanscafe.com";
 contactHours.textContent =
   "Business Hours: Monday to Friday: 8:00 AM - 6:00 PM Saturday and Sunday: 9:00 AM - 5:00 PM";
 
 // add styling classes
+contactHeading.className = "contact-heading";
+contactAddress.className = "contact-address";
+contactHours.className = "contact-hours";
+contactInfo.className = "contact-info";
+
 // function to append elements
 export function appendContactElements() {
   mainContent.appendChild(contactSection);
@@ -23,4 +29,5 @@ export function appendContactElements() {
   contactSection.appendChild(contactAddress);
   contactSection.appendChild(contactInfo);
   contactSection.appendChild(contactHours);
+
 }
