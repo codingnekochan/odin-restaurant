@@ -11,7 +11,7 @@ This project is a restaurant page created using HTML, CSS, and JavaScript. It fe
 - **Dynamic Menu:** JavaScript dynamically generates the restaurant menu for easy management and updates.
 ## Demo
 
-See the live demo [here](#).
+See the live demo [here](https://codingnekochan.github.io/odin-restaurant/).
 
 ## Project Structure
 
