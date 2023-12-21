@@ -21,7 +21,8 @@ aboutButton.textContent = "About";
 menuButton.textContent = "Menu";
 contactButton.textContent = "Contact";
 // adding classes for styling
-
+navSection.className = "nav-section";
+tabSection.className = "tabs-section";
 // append elements to the navigation;
 export function appendNavElements() {
   navSection.appendChild(mainHeading);
@@ -30,9 +31,9 @@ export function appendNavElements() {
   tabSection.appendChild(aboutButton);
   tabSection.appendChild(menuButton);
   tabSection.appendChild(contactButton);
-  tabSection.appendChild(line);
   navigation.appendChild(navSection);
-  navigation.appendChild(tabSection)
+  navigation.appendChild(line);
+
 }
 
 

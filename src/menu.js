@@ -5,6 +5,8 @@ menuSection.id = "menu"
     // function to append elements
 
   export function appendMenuElements() {
+   mainContent.appendChild(menuSection);
+
     for (let i = 1; i <= 4; i++) {
       const menuItem = document.createElement("div");
       menuItem.className = "menuItem";
@@ -20,12 +22,10 @@ menuSection.id = "menu"
       menuDetail.appendChild(foodDetail);
       menuItem.appendChild(menuDetail);
       menuItem.appendChild(menuFood);
-      menuSection.appendChild(menuItem)
-      mainContent.appendChild(menuSection);
       // add text content
       switch (menuItem.id) {
         case "menuitem-1":
-          foodName.textContent = "";
+          foodName.textContent = "Pizza";
           foodDetail.textContent = "";
           break;
         case "menuitem-1":
@@ -42,6 +42,8 @@ menuSection.id = "menu"
           break;
       }
     }
+          menuSection.appendChild(menuItem);
+
 }
 
     // add styling classes
